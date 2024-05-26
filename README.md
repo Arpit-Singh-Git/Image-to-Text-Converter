@@ -31,15 +31,17 @@ This project analyzes an image to extract text and separate visual elements usin
 
 ## Usage
 1. Ensure you have your Google Cloud Vision API credentials set up. Follow the [Google Cloud Vision API setup guide](https://cloud.google.com/vision/docs/setup) to get your credentials.
-2. Run the script with an image file:
+2. Place your image file (e.g., `img1.jpg`) in the project directory.
+3. Run the script with the image file:
    ```bash
-   python main.py img1.jpg
+   python Image_Analysis_Tool.py img1.jpg
    ```
 
 ## Project Structure
-- `main.py`: The main script that orchestrates the entire process.
+- `Image_Analysis_Tool.py`: The main script that orchestrates the entire process.
 - `requirements.txt`: Contains the list of required Python packages.
 - `README.md`: Documentation of the project.
+- `img1.jpg`: Example image file.
 
 ## Implementation Details
 
@@ -62,7 +64,7 @@ The `save_html` function saves the generated HTML content to a file.
 1. Place an image file (e.g., `img1.jpg`) in the project directory.
 2. Run the script:
    ```bash
-   python main.py img1.jpg
+   python Image_Analysis_Tool.py img1.jpg
    ```
 3. The output HTML file (`output.html`) will be generated in the project directory, containing the extracted text and visual elements from the image.
 
@@ -83,13 +85,12 @@ This project is licensed under the MIT License.
 
 ## Contact
 For any questions or suggestions, please contact [your email or GitHub profile].
-
 ```
 
-### Instructions for Uploading the README.md
+### Instructions for Uploading the README.md and requirements.txt
 
-1. Save the above content into a file named `README.md` in your project directory.
+1. Save the above content into files named `README.md` and `requirements.txt` respectively.
 2. Follow the steps previously provided to upload your project files to GitHub.
-3. Ensure that the `README.md` file is included when you upload your files.
+3. Ensure that the `README.md` and `requirements.txt` files are included when you upload your files along with your script `Image_Analysis_Tool.py` and the image file (e.g., `img1.jpg`). 
 
-With this `README.md`, users will have a clear understanding of what the project does, how to install and run it, the structure of the project, and other relevant details.
+This will provide a comprehensive guide for users who want to understand, install, and use your project.
