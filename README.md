@@ -1,5 +1,3 @@
-Sure! Here’s a comprehensive `README.md` file for your project:
-
 ```markdown
 # Image Text and Visual Element Separation
 
